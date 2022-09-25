@@ -53,6 +53,7 @@ img{
 }
 .section{
     padding-bottom: 94px;
+    padding-top: 94px;
 }
 .container{
     width: 1200px;
@@ -232,9 +233,6 @@ img{
     flex-wrap: wrap;
   
 }
-.container.feature{
-    margin-top: 94px;
-}
 
  .list-order{
     margin-right: 30px;
@@ -267,7 +265,9 @@ letter-spacing: 0.03em;
 
 
 /*what-we-do*/
-
+.we-do.section{
+    padding-top: 0;
+}
 
 .what-we-do.title{
     text-align: center;
@@ -337,15 +337,15 @@ letter-spacing: 0.03em;
 }
 
 /*footer*/
-.container.down{
+.darkside.footer{
     padding-top: 60px;
     padding-bottom: 60px;
-  
 }
+
 .site-logo.down{
     margin-bottom: 20px;
     display: inline-block;
-    margin-right: o;
+    margin-right: 0;
 }
 .darkside{
     color: var(--back-color);
@@ -399,9 +399,7 @@ letter-spacing: 0.03em;
 }
 
 /*portfolio*/
-.section.portfolio{
-    padding-top: 94px;
-}
+
 .list.portfolio{
     display: flex;
     justify-content: center;
