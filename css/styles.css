@@ -352,6 +352,9 @@ letter-spacing: 0.03em;
     background-color: var(--sbc);
     
 }
+.footer.address{
+    margin-bottom: 9px;
+}
 
 
 
@@ -363,7 +366,6 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     color: var(--white-whis-transparency);
     display: inline-block;
-    margin-bottom: 9px;
 }
 
 
@@ -376,7 +378,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     color: var(--back-color);
     display: inline-block;
-    margin-bottom: 9px;
+  
 }
 .address.map:hover,
 .address.map:focus,
